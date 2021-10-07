@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prueba;
+package snake_proyectopoo;
+
 
 /**
  *
@@ -82,9 +83,10 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        Juego juego = new Juego();
-        juego.setVisible(true);
+
         this.setVisible(false);
+        VentanaJuego juego = new VentanaJuego();
+        juego.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
